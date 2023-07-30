@@ -1,0 +1,1375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main_div{
+    width: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+#page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url(page1_bg_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+#page1>h3{
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    top: 180px;
+    left: 50px;
+}
+
+#page1>h1{
+    position: absolute;
+    color: white;
+    font-size: 72px;
+    top: 250px;
+    left: 50px;
+}
+
+#page1>p{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    top: 360px      ;
+    width: 500px;
+    left: 50px;
+    text-align: justify;
+}
+
+
+#page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url(page2_bg_2.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#mobile_mode2{
+    display: none;
+}
+
+#page2>h1{
+    position: absolute;
+    color: white;
+    right: 200px;
+    padding-top: 25px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+#page2>blockquote{
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    top: 190px;
+    right: 150px;
+    width: 400px;
+    text-align: center;
+}
+
+#page2>p{
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    top: 350px;
+    right: 150px;
+    text-align: center;
+}
+
+
+#page3{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url(page3_bg_2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#mobile_about{
+    display: none;
+}
+
+#page3>h1{
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    top: 60px;
+    right: 350px;
+    border-bottom: 1px solid white;
+}
+
+#page3>p{
+    position: absolute;
+    color: white;
+    width: 550px;
+    top: 165px;
+    right: 150px;
+    text-align: justify;
+}
+
+#page4{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url(page4_bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#page4>h1{
+    padding-top: 40px;
+    width: 150px;
+    border-bottom: 1px solid white;
+    margin: auto;
+    color: white;
+    text-align: center;
+
+}
+#portfolio_img{
+    width: 100vw;
+    position: relative;
+}
+
+#portfolio_img img{
+    width: 200px;
+    height: 200px;
+}
+
+#port_img1{
+    position: absolute;
+    top: 260px;
+    left: 40px;
+}
+
+#port_img2{
+    position: absolute;
+    top: 70px;
+    left: 390px;
+}
+
+#port_img3{
+    position: absolute;
+    top: 340px;
+    left: 390px;
+}
+
+#port_img4{
+    position: absolute;
+    top: 30px;
+    right: 90px;
+}
+
+#port_img5{
+    position: absolute;
+    top: 340px;
+    right: 420px;
+}
+
+#port_img6{
+    position: absolute;
+    top: 70px;
+    right: 420px;
+}
+
+
+#page5{
+    width: 100%;
+    height: 100vh;
+    background-image: url(page6_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#page5>h1{
+    width: 200px;
+    margin: auto;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+#page5>address{
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 400px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+#page5>h3{
+    position: absolute;
+    color: white;
+    top: 300px;
+    left: 400px;
+    font-size: 28px;
+}
+
+#page5>p{
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 400px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#page5>footer{
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    left: 520px;
+}
+
+
+
+/* Resposive Section Start Here */
+
+
+@media only screen and (max-width: 1024px) {
+    #page1>h3{
+        position: absolute;
+        color: white;
+        font-size: 28px;
+        top: 90px;
+        left: 50px;
+    }
+    
+    #page1>h1{
+        position: absolute;
+        color: white;
+        font-size: 60px;
+        top: 150px;
+        left: 50px;
+    }
+    
+    #page1>p{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        top: 250px      ;
+        width: 390px;
+        left: 50px;
+        text-align: justify;
+    }
+
+
+    #page2>h1{
+        position: absolute;
+        color: white;
+        right: 80px;
+        padding-top: 25px;
+        border-bottom: 1px solid white;
+        text-align: center;
+    }
+    
+    #page2>blockquote{
+        position: absolute;
+        color: white;
+        font-size: 32px;
+        top: 150px;
+        right: 40px;
+        width: 400px;
+        text-align: center;
+    }
+    
+    #page2>p{
+        position: absolute;
+        color: white;
+        font-size: 24px;
+        top: 260px;
+        right: 80px;
+        text-align: center;
+    }
+
+
+    #page3>h1{
+        position: absolute;
+        color: white;
+        font-size: 36px;
+        top: 30px;
+        right: 270px;
+        border-bottom: 1px solid white;
+    }
+    
+    #page3>p{
+        position: absolute;
+        color: white;
+        width: 530px;
+        top: 100px;
+        right: 80px;
+        text-align: justify;
+    }
+
+
+    #page4>h1{
+        padding-top: 30px;
+        width: 150px;
+        border-bottom: 1px solid white;
+        margin: auto;
+        color: white;
+        text-align: center;
+    
+    }
+    #portfolio_img{
+        width: 100vw;
+        position: relative;
+    }
+    
+    #portfolio_img img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    #port_img1{
+        position: absolute;
+        top: 170px;
+        left: 40px;
+    }
+    
+    #port_img2{
+        position: absolute;
+        top: 70px;
+        left: 270px;
+    }
+    
+    #port_img3{
+        position: absolute;
+        top: 250px;
+        left: 270px;
+    }
+    
+    #port_img4{
+        position: absolute;
+        top: 30px;
+        right: 90px;
+    }
+    
+    #port_img5{
+        position: absolute;
+        top: 250px;
+        right: 350px;
+    }
+    
+    #port_img6{
+        position: absolute;
+        top: 70px;
+        right: 350px;
+    }
+
+    #page5>h1{
+        width: 200px;
+        margin: auto;
+        color: white;
+        padding-top: 40px;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    
+    #page5>address{
+        position: absolute;
+        color: white;
+        top: 180px;
+        left: 300px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    
+    #page5>h3{
+        position: absolute;
+        color: white;
+        top: 230px;
+        left: 300px;
+        font-size: 28px;
+    }
+    
+    #page5>p{
+        position: absolute;
+        color: white;
+        top: 280px;
+        left: 300px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    
+    #page5>footer{
+        position: absolute;
+        color: white;
+        bottom: 20px;
+        left: 370px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #page1>h3{
+        position: absolute;
+        color: white;
+        font-size: 24px;
+        top: 90px;
+        left: 50px;
+    }
+    
+    #page1>h1{
+        position: absolute;
+        color: white;
+        font-size: 42px;
+        top: 150px;
+        left: 50px;
+    }
+    
+    #page1>p{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        top: 220px      ;
+        width: 270px;
+        left: 50px;
+        text-align: justify;
+    }
+
+
+    #page2>h1{
+        position: absolute;
+        color: white;
+        right: 80px;
+        font-size: 28px;
+        top: 30px;
+        border-bottom: 1px solid white;
+        text-align: center;
+    }
+    
+    #page2>blockquote{
+        position: absolute;
+        color: white;
+        font-size: 24px;
+        top: 170px;
+        right: 20px;
+        width: 350px;
+        text-align: center;
+    }
+    
+    #page2>p{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        top: 280px;
+        right: 80px;
+        text-align: center;
+    }
+
+
+    #page3>h1{
+        position: absolute;
+        color: white;
+        font-size: 36px;
+        top: 60px;
+        right: 200px;
+        border-bottom: 1px solid white;
+    }
+    
+    #page3>p{
+        position: absolute;
+        color: white;
+        width: 400px;
+        height: 70vh;
+        overflow: hidden;
+        top: 130px;
+        right: 80px;
+        text-align: justify;
+    }
+
+
+    #page4>h1{
+        padding-top: 30px;
+        width: 150px;
+        border-bottom: 1px solid white;
+        margin: auto;
+        color: white;
+        text-align: center;
+    
+    }
+    #portfolio_img{
+        width: 100vw;
+        position: relative;
+    }
+    
+    #portfolio_img img{
+        width: 110px;
+        height: 110px;
+    }
+    
+    #port_img1{
+        position: absolute;
+        top: 140px;
+        left: 40px;
+    }
+    
+    #port_img2{
+        position: absolute;
+        top: 70px;
+        left: 200px;
+    }
+    
+    #port_img3{
+        position: absolute;
+        top: 250px;
+        left: 200px;
+    }
+    
+    #port_img4{
+        position: absolute;
+        top: 30px;
+        right: 90px;
+    }
+    
+    #port_img5{
+        position: absolute;
+        top: 250px;
+        right: 260px;
+    }
+    
+    #port_img6{
+        position: absolute;
+        top: 70px;
+        right: 260px;
+    }
+
+    #page5>h1{
+        width: 200px;
+        margin: auto;
+        color: white;
+        padding-top: 30px;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    
+    #page5>address{
+        position: absolute;
+        color: white;
+        top: 180px;
+        left: 170px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    
+    #page5>h3{
+        position: absolute;
+        color: white;
+        top: 230px;
+        left: 170px;
+        font-size: 24px;
+    }
+    
+    #page5>p{
+        position: absolute;
+        color: white;
+        top: 280px;
+        left: 170px;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    #page5>footer{
+        position: absolute;
+        color: white;
+        bottom: 20px;
+        left: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    #page1{
+        /* background-image: none; */
+        background-position: top;
+        height: 580px;
+    }
+    
+    #page1>h3{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 150px;
+        left: 20px;
+    }
+    
+    #page1>h1{
+        position: absolute;
+        color: white;
+        font-size: 28px;
+        top: 200px;
+        left: 20px;
+    }
+    
+    #page1>p{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        top: 250px      ;
+        width: 320px;
+        left: 20px;
+        text-align: justify;
+    }
+
+    #page2{
+        background-position: right;
+        background-image: none;
+        border-top: 1px solid white;
+        height: 550px;
+
+
+    }
+
+    #mobile_mode2{
+        position: absolute; 
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 50px;
+        /* border: 1px solid red; */
+    }
+
+    #page2>h1{
+        position: absolute;
+        color: white;
+        /* right: 40px; */
+        font-size: 28px;
+        /* border-bottom: 1px solid white; */
+        margin: 0 auto ;
+        inset: 0;
+        top: 200px;
+        /* border: 1px solid red; */
+
+    }
+    
+    #page2>blockquote{
+        position: absolute;
+        color: white;
+        font-size: 24px;
+        margin: 0 auto ;
+        inset: 0;
+        width: 300px;
+        top: 280px;
+        text-align: center;
+    }
+    
+    #page2>p{
+        position: absolute;
+        color: white;
+        font-size: 14px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 370px;
+        /* right: 80px; */
+        /* text-align: center; */
+    }
+
+    #page3{
+        background-image: none;
+        height: 580px;
+    }
+
+    #mobile_about{
+        position: absolute;
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 20px;
+    }
+
+    #page3>h1{
+        position: absolute;
+        color: white;
+        font-size: 32px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 195px;
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+    
+    #page3>p{
+        position: absolute;
+        color: white;
+        width: 350px;
+        height: 215px;
+        /* overflow: hidden; */
+        margin: 0 auto ;
+        inset: 0;
+        top: 250px;
+        /* right: 80px; */
+        text-align: justify;
+    }
+
+
+    #page4{
+        background-image: none;
+        height: 580px;
+    }
+
+
+    #page4>h1{
+        padding-top: 30px;
+        width: 150px;
+        border-bottom: 1px solid white;
+        margin: auto;
+        color: white;
+        text-align: center;
+    
+    }
+    #portfolio_img{
+        width: 100vw;
+        position: relative;
+    }
+    
+    #portfolio_img img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #port_img1{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 30px;
+        left: -200px;
+    }
+    
+    #port_img2{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 30px;
+        left: 200px;
+    }
+    
+    #port_img3{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 160px;
+        left: -200px;
+    }
+    
+    #port_img4{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 160px;
+        left: 200px;
+    }
+    
+    #port_img5{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 290px;
+        left: -200px;
+    }
+    
+    #port_img6{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 290px;
+        left: 200px;
+    }
+
+    #page5{
+        border-top: 1px solid white;
+        height: 520px;
+    }
+
+    #page5>h1{
+        width: 200px;
+        margin: auto;
+        color: white;
+        padding-top: 30px;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    
+    #page5>address{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 150px;
+        /* left: 170px; */
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    
+    #page5>h3{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 220px;
+        /* left: 170px; */
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #page5>p{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 270px;
+        /* left: 170px; */
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #page5>footer{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 450px;
+        text-align: center;
+    }
+}
+    
+@media only screen and (max-width: 375px) {
+    #page1{
+        background-position: top;
+    }
+    
+    #page1>h3{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 150px;
+        left: 20px;
+    }
+    
+    #page1>h1{
+        position: absolute;
+        color: white;
+        font-size: 28px;
+        top: 200px;
+        left: 20px;
+    }
+    
+    #page1>p{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        top: 250px      ;
+        width: 320px;
+        left: 20px;
+        text-align: justify;
+    }
+
+    #page2{
+        background-position: right;
+        background-image: none;
+
+
+    }
+
+    #mobile_mode2{
+        position: absolute; 
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 50px;
+        /* border: 1px solid red; */
+    }
+
+    #page2>h1{
+        position: absolute;
+        color: white;
+        /* right: 40px; */
+        font-size: 28px;
+        /* border-bottom: 1px solid white; */
+        margin: 0 auto ;
+        inset: 0;
+        top: 200px;
+        /* border: 1px solid red; */
+
+    }
+    
+    #page2>blockquote{
+        position: absolute;
+        color: white;
+        font-size: 24px;
+        margin: 0 auto ;
+        inset: 0;
+        width: 300px;
+        top: 280px;
+        text-align: center;
+    }
+    
+    #page2>p{
+        position: absolute;
+        color: white;
+        font-size: 14px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 370px;
+        /* right: 80px; */
+        /* text-align: center; */
+    }
+
+    #page3{
+        background-image: none;
+    }
+
+    #mobile_about{
+        position: absolute;
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 20px;
+    }
+
+    #page3>h1{
+        position: absolute;
+        color: white;
+        font-size: 32px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 195px;
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+    
+    #page3>p{
+        position: absolute;
+        color: white;
+        width: 310px;
+        height: 40vh;
+        overflow: hidden;
+        margin: 0 auto ;
+        inset: 0;
+        top: 250px;
+        /* right: 80px; */
+        text-align: justify;
+    }
+
+
+    #page4{
+        background-image: none;
+    }
+
+
+    #page4>h1{
+        padding-top: 30px;
+        width: 150px;
+        border-bottom: 1px solid white;
+        margin: auto;
+        color: white;
+        text-align: center;
+    
+    }
+    #portfolio_img{
+        width: 100vw;
+        position: relative;
+    }
+    
+    #portfolio_img img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #port_img1{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 30px;
+        left: -200px;
+    }
+    
+    #port_img2{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 30px;
+        left: 200px;
+    }
+    
+    #port_img3{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 160px;
+        left: -200px;
+    }
+    
+    #port_img4{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 160px;
+        left: 200px;
+    }
+    
+    #port_img5{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 290px;
+        left: -200px;
+    }
+    
+    #port_img6{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 290px;
+        left: 200px;
+    }
+
+    #page5>h1{
+        width: 200px;
+        margin: auto;
+        color: white;
+        padding-top: 30px;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    
+    #page5>address{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 150px;
+        /* left: 170px; */
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    
+    #page5>h3{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 220px;
+        /* left: 170px; */
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #page5>p{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 270px;
+        /* left: 170px; */
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #page5>footer{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 450px;
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 320px) {
+    #page1{
+        background-position: top;
+    }
+    
+    #page1>h3{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 150px;
+        left: 20px;
+    }
+    
+    #page1>h1{
+        position: absolute;
+        color: white;
+        font-size: 28px;
+        top: 200px;
+        left: 20px;
+    }
+    
+    #page1>p{
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        top: 250px      ;
+        width: 250px;
+        left: 20px;
+        text-align: justify;
+    }
+
+    #page2{
+        background-position: right;
+        background-image: none;
+
+
+    }
+
+    #mobile_mode2{
+        position: absolute; 
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 50px;
+        /* border: 1px solid red; */
+    }
+
+    #page2>h1{
+        position: absolute;
+        color: white;
+        /* right: 40px; */
+        font-size: 26px;
+        /* border-bottom: 1px solid white; */
+        margin: 0 auto ;
+        inset: 0;
+        top: 200px;
+        /* border: 1px solid red; */
+
+    }
+    
+    #page2>blockquote{
+        position: absolute;
+        color: white;
+        font-size: 22px;
+        margin: 0 auto ;
+        inset: 0;
+        width: 300px;
+        top: 280px;
+        text-align: center;
+    }
+    
+    #page2>p{
+        position: absolute;
+        color: white;
+        font-size: 14px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 370px;
+        /* right: 80px; */
+        /* text-align: center; */
+    }
+
+    #page3{
+        background-image: none;
+    }
+
+    #mobile_about{
+        position: absolute;
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 20px;
+    }
+
+    #page3>h1{
+        position: absolute;
+        color: white;
+        font-size: 32px;
+        margin: 0 auto ;
+        inset: 0;
+        top: 195px;
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+    
+    #page3>p{
+        position: absolute;
+        color: white;
+        width: 280px;
+        height: 40vh;
+        overflow: hidden;
+        margin: 0 auto ;
+        inset: 0;
+        top: 250px;
+        /* right: 80px; */
+        text-align: justify;
+    }
+
+
+    #page4{
+        background-image: none;
+    }
+
+
+    #page4>h1{
+        padding-top: 30px;
+        width: 150px;
+        border-bottom: 1px solid white;
+        margin: auto;
+        color: white;
+        text-align: center;
+    
+    }
+    #portfolio_img{
+        width: 100vw;
+        position: relative;
+    }
+    
+    #portfolio_img img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #port_img1{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 30px;
+        left: -170px;
+    }
+    
+    #port_img2{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 30px;
+        left: 170px;
+    }
+    
+    #port_img3{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 160px;
+        left: -170px;
+    }
+    
+    #port_img4{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 160px;
+        left: 170px;
+    }
+    
+    #port_img5{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 290px;
+        left: -170px;
+    }
+    
+    #port_img6{
+        position: absolute;
+        margin: 0 auto ;
+        inset: 0;
+        top: 290px;
+        left: 170px;
+    }
+
+    #page5>h1{
+        width: 200px;
+        margin: auto;
+        color: white;
+        padding-top: 30px;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    
+    #page5>address{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 150px;
+        /* left: 170px; */
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    
+    #page5>h3{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 220px;
+        /* left: 170px; */
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #page5>p{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        inset: 0;
+        top: 270px;
+        /* left: 170px; */
+        font-size: 19px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #page5>footer{
+        position: absolute;
+        color: white;
+        margin: 0 auto ;
+        font-size: 15px;
+        inset: 0;
+        top: 450px;
+        text-align: center;
+    }
+
+}
+
